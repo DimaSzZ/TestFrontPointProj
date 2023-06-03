@@ -1,0 +1,8 @@
+<form [formGroup]="form" id="form" class="topBefore">
+  <input id="x" type="text" placeholder="Положение по x" formControlName="x">
+  <input id="y" type="text" placeholder="Положение по Y" formControlName="y">
+  <textarea id="rad" type="text" placeholder="Радиус" formControlName="rad"></textarea>
+  <textarea id="color" type="text" placeholder="Цвет" formControlName="color"></textarea>
+  <input (click)="AddPoint()" id="submit" type="submit" value="Добавить">
+</form>
+
